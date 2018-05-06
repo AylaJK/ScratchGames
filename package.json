@@ -1,6 +1,6 @@
 {
   "name": "scratch_games",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "ScratchGames",
   "main": "server.js",
   "scripts": {
