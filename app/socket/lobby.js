@@ -31,12 +31,12 @@ let init = function(io) {
       lmanager.addScores.GoFish(a);
     });
 
-    socket.on('disconnect', function() {
+    /*socket.on('disconnect', function() {
       socket.broadcast
         .to(socket.request.user.lobbyId)
         .emit('playerLeft', socket.request.user.id);
       manager.removeMember(socket.request.user);
-    });
+    });*/
 
     socket.on('lobbyLand', function() {
       socket.broadcast
